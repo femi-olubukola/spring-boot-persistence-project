@@ -2,7 +2,9 @@ package com.baeldung.lsd.persistence.model;
 
 import jakarta.persistence.*;
 
+
 @Entity
+@Table
 public class Worker {
 
     @Id
